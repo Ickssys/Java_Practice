@@ -24,7 +24,7 @@ public class Counter{
 
     public static void main(String[] args) {
         int N = Integer.parseInt(args[0]);
-        int T = Integer.parseInt(args[0]);
+        int T = Integer.parseInt(args[1]);
         Counter[] hits = new Counter[N];
         for(int i = 0; i < N; i++){
             hits[i] = new Counter(i + " ", T);
